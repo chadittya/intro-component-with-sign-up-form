@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Intro component with sign up form solution
 
-## Getting Started
+This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### The challenge
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.js`.
+Users should be able to:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Receive an error message when the `form` is submitted if:
+  - Any `input` field is empty. The message for this error should say _"[Field Name] cannot be empty"_
+  - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say _"Looks like this is not an email"_
 
-## Learn More
+### Screenshot
 
-To learn more about Next.js, take a look at the following resources:
+![](./screenshoot.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Solution URL: [https://github.com/chadittya/intro-component-with-sign-up-form](https://github.com/chadittya/intro-component-with-sign-up-form)
+- Live Site URL: [https://intro-component-with-sign-up-form-rose.vercel.app/](https://intro-component-with-sign-up-form-rose.vercel.app/)
 
-## Deploy on Vercel
+## My process
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Built with
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://styled-components.com/) - For styles
+
+### What I learned
+
+1. Form Validation: Learn how to add form validation to a Next.js project using JavaScript. Specifically, learn how to validate whether a form input is empty, and whether an email address is in the correct format.
+
+2. Error Handling: Learn how to display error messages to users when there are issues with their form submission. Specifically, learn how to display error messages when form inputs are empty or when the email address is not in the correct format.
+
+3. Styling: Learn how to style a form and error messages using Tailwind CSS, a popular CSS framework. Specifically, learn how to use Tailwind CSS classes to create custom styles for form inputs, buttons, and error messages.
+
+4. Next.js Features: Learn how to use Next.js features such as server-side rendering, static site generation, and dynamic routing. Specifically, learn how to use Next.js to create a dynamic form that handles form submissions and displays error messages.
+
+Overall, this project is a great opportunity to learn about form validation, error handling, styling, and Next.js features. By working on this project, you can gain valuable skills that you can apply to other web development projects in the future.
+
+## Author
+
+- Github - [Achadittya](https://github.com/chadittya/)
+- Frontend Mentor - [@chadittya](https://www.frontendmentor.io/profile/chadittya)
+- Twitter - [@galiharizza](https://www.twitter.com/galiharizza)
